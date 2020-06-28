@@ -1,4 +1,4 @@
-package com.wm.gateway;
+package com.wm.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
