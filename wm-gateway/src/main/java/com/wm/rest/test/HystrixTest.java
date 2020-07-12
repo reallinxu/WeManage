@@ -1,4 +1,4 @@
-package com.wm.rest;
+package com.wm.rest.test;
 
 import org.springframework.stereotype.Component;
 

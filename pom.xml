@@ -41,6 +41,18 @@
                     <type>pom</type>
                     <scope>import</scope>
                 </dependency>
+
+                <dependency>
+                    <groupId>org.elasticsearch.client</groupId>
+                    <artifactId>elasticsearch-rest-client</artifactId>
+                    <version>6.4.0</version>
+                </dependency>
+                <!--引入json进行HTTP序列化-->
+                <dependency>
+                    <groupId>org.json</groupId>
+                    <artifactId>json</artifactId>
+                    <version>20190722</version>
+                </dependency>
         </dependencies>
     </dependencyManagement>
 
