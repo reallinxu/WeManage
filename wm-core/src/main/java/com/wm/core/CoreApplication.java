@@ -1,5 +1,6 @@
 package com.wm.core;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -19,6 +20,7 @@ public class CoreApplication {
     }
     @RestController
     class EchoController {
+        @SentinelResource(value = "hi")
         @RequestMapping(value = "/echo/{string}", method = RequestMethod.GET)
         public String echo(@PathVariable String string) {
             return "Hello Nacos Discovery " + string;
