@@ -19,4 +19,14 @@ public class MyBatisController {
         return personByName.toString();
     }
 
+    @RequestMapping("test/mybatis/insert")
+    public String testMyBatisInsert(@RequestParam int id){
+        Person person = new Person();
+        person.setId(id);
+        person.setName("111");
+        person.setAge(1111);
+        person.setSex("1");
+        testMyBatisService.insert(person);
+        return "succ";
+    }
 }

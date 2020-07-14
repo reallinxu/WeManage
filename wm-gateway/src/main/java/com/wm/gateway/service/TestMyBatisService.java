@@ -6,4 +6,5 @@ public interface TestMyBatisService {
 
     Person getPersonByName(String name);
 
+    void insert(Person person);
 }

@@ -16,4 +16,9 @@ public class TestMyBatisServiceImpl implements TestMyBatisService {
     public Person getPersonByName(String name) {
         return personMapper.getPersonByName(name);
     }
+
+    @Override
+    public void insert(Person person) {
+        personMapper.insert(person);
+    }
 }

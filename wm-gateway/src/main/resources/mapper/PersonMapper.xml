@@ -4,6 +4,7 @@
 
     <!-- 可根据自己的需求，是否要使用 -->
     <resultMap type="Person" id="Person">
+        <result column="id" property="id" jdbcType="INTEGER" />
         <result column="name" property="name" jdbcType="VARCHAR" />
         <result column="age" property="age" jdbcType="INTEGER" />
         <result column="sex" property="sex" jdbcType="VARCHAR" />
