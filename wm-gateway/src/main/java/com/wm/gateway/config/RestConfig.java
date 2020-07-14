@@ -1,4 +1,4 @@
-package com.wm.rest.config;
+package com.wm.gateway.config;
 
 import org.apache.http.HttpHost;
 import org.elasticsearch.client.RestClient;

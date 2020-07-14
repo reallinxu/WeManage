@@ -1,6 +1,6 @@
-package com.wm.rest.controller;
+package com.wm.gateway.controller;
 
-import com.wm.rest.util.RedisUtil;
+import com.wm.gateway.util.RedisUtil;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;

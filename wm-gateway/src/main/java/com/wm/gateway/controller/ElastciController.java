@@ -1,4 +1,4 @@
-package com.wm.rest.controller;
+package com.wm.gateway.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.http.entity.ContentType;

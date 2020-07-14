@@ -1,6 +1,6 @@
-package com.wm.rest.config;
+package com.wm.gateway.config;
 
-import com.wm.rest.util.RedisUtil;
+import com.wm.gateway.util.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

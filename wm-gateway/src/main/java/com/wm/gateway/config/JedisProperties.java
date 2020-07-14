@@ -1,4 +1,4 @@
-package com.wm.rest.config;
+package com.wm.gateway.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

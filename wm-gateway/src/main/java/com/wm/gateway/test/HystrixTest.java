@@ -1,4 +1,4 @@
-package com.wm.rest.test;
+package com.wm.gateway.test;
 
 import org.springframework.stereotype.Component;
 

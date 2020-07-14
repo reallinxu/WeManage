@@ -1,6 +1,6 @@
-package com.wm.rest.controller;
+package com.wm.gateway.controller;
 
-import com.wm.rest.test.FeignTest;
+import com.wm.gateway.test.FeignTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
